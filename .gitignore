@@ -1,0 +1,11 @@
+build
+build.log
+tmp
+._*
+.DS_Store*.class
+*.pyc
+*.pyo
+
+*.lock
+
+.project
