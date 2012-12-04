@@ -1,18 +1,32 @@
-Welcome to your Appcelerator Titanium Mobile Project
+Hello friends,
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+This is small examples to use Android action bar in Titanium, This feature is supported from Android 3 (API level 11) and some new features from Android 4 (API level 14).
 
+From [SDK 3.0 Titanium will support some of Android action bar elements](http://docs.appcelerator.com/titanium/release-notes/?version=3.0.0.B#action_bar), more from [SDK 3 beta documentation](http://docs.appcelerator.com/titanium/3.0/#!/api/Titanium.Android.ActionBar).
 
+**Supported**:
 
-----------------------------------
-Stuff our legal folk make us say:
+1. Tab groups
+2. Option menu items can be displayed as action items in the action bar.
+3. Expanding and collapsing action items are supported.
 
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
+**Not supported**:
 
-Titanium is Copyright (c) 2008-2012 by Appcelerator, Inc. All Rights Reserved.
+1. Search widget in the action bar.
+2. There is no method for registering click events on the ActionBar icon, or for changing the display of the icon dynamically (for example, adding the "Up" affordance to the icon).
+3. Drop-down navigation.
+4. Action providers.
 
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
+**How To**
 
+See the [SDK 3.0 Beta release note](http://docs.appcelerator.com/titanium/release-notes/?version=3.0.0.B#action_bar)
+
+**Example**
+
+This is new [repository](https://github.com/HazemKhaled/ActionBarSampleTi) i just start working on to write action bar examples like in Android api demo, so please help if you can
+
+and this is [Alloy example](https://github.com/hoyo/ActionBarSample) By Hoyo
+
+[More about Android Action bar from Android.com](http://developer.android.com/guide/topics/ui/actionbar.html)
+
+Thanks
