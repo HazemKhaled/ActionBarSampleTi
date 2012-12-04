@@ -1,6 +1,7 @@
 var win1 = Ti.UI.createWindow({
     fullscreen : true,
-    title : 'Action Bar'
+    title : 'Action Bar',
+    exitOnClose : true
 });
 
 var table = Ti.UI.createTableView({
