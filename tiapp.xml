@@ -31,7 +31,7 @@
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <tool-api-level>16</tool-api-level>
         <manifest>
-            <uses-sdk android:minSdkVersion="5" android:targetSdkVersion="11"/>
+            <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="11"/>
         </manifest>
     </android>
     <modules/>
