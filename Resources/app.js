@@ -11,6 +11,9 @@ var table = Ti.UI.createTableView({
     }, {
         title : 'Tabs',
         module : 'Tabs'
+    }, {
+        title : 'Other Options',
+        module : 'Options'
     }]
 });
 
