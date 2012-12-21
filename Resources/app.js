@@ -6,14 +6,16 @@ var win1 = Ti.UI.createWindow({
 
 var table = Ti.UI.createTableView({
     data : [{
-        title : 'action buttons'
+        title : 'Action Buttons',
+        module : 'Menu'
     }, {
-        title : 'tabs'
+        title : 'Tabs',
+        module : 'Tabs'
     }]
 });
 
 table.addEventListener('click', function(e) {
-    var Window = require('actionbar' + e.index);
+    var Window = require(e.rowData.module);
     new Window().open();
 });
 
